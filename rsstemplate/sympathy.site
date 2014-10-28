@@ -1,0 +1,49 @@
+
+/*
+ * sympathy.site
+ * A template for a common Sympathy website
+ */
+
+{
+	"settings" : {
+	},
+
+	"handlers" : [
+		{
+			"path" : "/template",
+			"handler" : "com.eqela.sympathy.libcommonhandler.DirectoryHandler",
+			"settings" : {
+				"content_dir" : "template/default",
+				"allow_download_t_files" : "false",
+				"list_directories" : "false"
+			}
+		},
+		{
+			"path" : "",
+			"handler" : "com.eqela.sympathy.libcommonhandler.DirectoryHandler",
+			"settings" : {
+				"template_dir" : "template/default",
+				"content_dir" : "content",
+				"list_directories" : "false"
+			}
+		},
+		 {
+            "path" : "/mylinkfeed",
+            "handler" : "com.eqela.sympathy.liblinkfeedproxy.LinkFeedProxy",
+            "settings" : {
+                "template_dir" : "template/default",
+                "template_id" : "index",
+                "update_interval" : " 100",
+                "max_items" : "50",
+                "sources" : [
+                    {
+                    "type" : "rss",
+                    "source_desc" : "A sample feed",
+                    "default_headline" : "A headline if none other is found",
+                    "url" : "www.ndtv.com/rss"
+                    }
+                ]
+            }
+        } 
+	]
+}

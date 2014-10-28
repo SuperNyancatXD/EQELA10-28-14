@@ -1,0 +1,24 @@
+{
+	"type" : "doc",
+	"title" : "Home",
+	"links" : [
+		{
+			"href" : "manga",
+			"rel" : "Manga Sites"
+		},
+		
+		{
+			"href" : "anime",
+			"rel" : "Anime Sites"
+		},
+		
+		{
+			"href" : "lightnovel",
+			"rel" : "Light Novel Sites"
+		},
+		{
+			"href" : "wiki",
+			"rel" : "wiki Sites"
+		}
+	]
+}

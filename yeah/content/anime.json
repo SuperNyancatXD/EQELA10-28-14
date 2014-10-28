@@ -1,0 +1,21 @@
+{
+	"type" : "doc",
+	"title" : "Anime site",
+	"links" : [
+	
+		{
+			"href" : "http://www.kissanime.com",
+			"rel" : "Kiss Anime"
+		},
+		
+		{
+			"href" : "http://wwww.animecrazy.com",
+			"rel" : "Anime Crazy"
+		},
+		
+		{
+			"href" : "http://www.crunchyroll.com",
+			"rel" : "CrunchyRoll"
+		}
+	]
+}

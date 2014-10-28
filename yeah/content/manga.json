@@ -1,0 +1,21 @@
+{
+	"type" : "doc",
+	"title" : "Manga site",
+	"links" : [
+	
+		{
+			"href" : "http://www.mangahere.com",
+			"rel" : "Manga Here"
+		},
+		
+		{
+			"href" : "http://wwww.mangareader.net",
+			"rel" : "Manga Reader"
+		},
+		
+		{
+			"href" : "http://www.kissmanga.com",
+			"rel" : "Kiss Manga"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"type" : "doc",
+	"title" : "Wiki Site",
+	"links" : [
+	
+		{
+			"href" : "http://www.wikipedia.org",
+			"rel" : "Wikipedia"
+		},
+		
+		{
+			"href" : "http://www.leagueoflegends.wikia.com",
+			"rel" : "League of Legend Wiki"
+		},
+		
+		{
+			"href" : "http://www.elwiki.net",
+			"rel" : "Elsword Wiki"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"type" : "doc",
+	"title" : "Light Novel site",
+	"links" : [
+	
+		{
+			"href" : "http://www.baka-tsuki.org",
+			"rel" : "Baka - Tsuki"
+		}
+	]
+}
